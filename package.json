@@ -1,0 +1,55 @@
+{
+  "name": "@rootstock/create-rsk-dapp",
+  "version": "1.0.0",
+  "description": "A powerful CLI tool to bootstrap full-stack dApps on Rootstock blockchain",
+  "main": "./dist/index.js",
+  "bin": {
+    "create-rsk-dapp": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "test": "jest",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "rootstock",
+    "rsk",
+    "blockchain",
+    "dapp",
+    "cli",
+    "scaffold",
+    "ethereum",
+    "web3"
+  ],
+  "author": "Rootstock Team",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^11.1.0",
+    "fs-extra": "^11.2.0",
+    "inquirer": "^9.2.12",
+    "ora": "^7.0.1",
+    "validate-npm-package-name": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^20.10.5",
+    "@types/validate-npm-package-name": "^4.0.2",
+    "jest": "^29.7.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rootstock/create-rsk-dapp"
+  },
+  "bugs": {
+    "url": "https://github.com/rootstock/create-rsk-dapp/issues"
+  },
+  "homepage": "https://github.com/rootstock/create-rsk-dapp#readme"
+}

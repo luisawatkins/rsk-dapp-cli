@@ -1,0 +1,41 @@
+# Source files
+src/
+templates/
+
+# Development files
+*.ts
+!*.d.ts
+tsconfig.json
+.eslintrc.json
+.prettierrc
+
+# Test files
+test/
+*.test.js
+*.spec.js
+
+# Git files
+.git/
+.gitignore
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Dependencies
+node_modules/
+
+# Build tools
+.github/
+.circleci/
+.travis.yml
