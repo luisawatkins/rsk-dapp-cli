@@ -361,5 +361,5 @@ We welcome contributions! Please see our Contributing Guide for details.
 ---
 
 <p align="center">
-  Built with ❤️ by the Rootstock community
+Built with ❤️ for the Rootstock ecosystem
 </p>
